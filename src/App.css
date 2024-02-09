@@ -1,0 +1,25 @@
+.portrait {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portrait-pic {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  cursor: pointer;
+}
+
+.portrait-text {
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
